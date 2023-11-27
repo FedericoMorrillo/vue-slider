@@ -35,6 +35,13 @@ createApp({
          ]     
         
         }
+    },
+    methods: {
+        prevImg() {
+            this.currentItem = (this.currentItem - 1 + this.slides.length) % this.slides.length;
+        },
+        nextImg() {
+            this.currentItem = (this.currentItem + 1) % this.slides.length;
+        }
     }
-
 }).mount('#app')
