@@ -6,5 +6,5 @@
 4) utiliziamo lo stesso procedimento per la slide principale per inserire le immagini nella thumbs;
 5) al click sull' immagine viene visualizzata come immagine principale;
 6) utiliziamo una timing function per scorrere le immagini ogni 3 secondi;
-7)all' hover dello slider interrompiamo la funzione di autoplay;
+7) all' hover dello slider interrompiamo la funzione di autoplay;
  
