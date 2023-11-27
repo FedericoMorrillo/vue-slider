@@ -42,6 +42,9 @@ createApp({
         },
         nextImg() {
             this.currentItem = (this.currentItem + 1) % this.slides.length;
+        },
+        selectThumb(index) {
+            this.currentItem = index;
         }
     }
 }).mount('#app')
